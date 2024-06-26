@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Notecards App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <div id="start-screen">
+            <h1>Create a New Speech</h1>
+            <button id="create-speech-btn">Create Speech</button>
+        </div>
+
+        <div id="notecards-screen" style="display:none;">
+            <h1>Notecards</h1>
+            <button id="add-notecard-btn">Add Notecard</button>
+            <div id="notecards-container"></div>
+            <button id="start-speech-btn">Start Speech</button>
+        </div>
+
+        <div id="speech-screen" style="display:none;">
+            <div id="timer">00:00</div>
+            <div id="notecard-display"></div>
+            <button id="prev-notecard-btn">Previous</button>
+            <button id="next-notecard-btn">Next</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
